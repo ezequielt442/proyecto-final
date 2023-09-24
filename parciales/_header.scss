@@ -1,0 +1,33 @@
+.navbar{
+    height: 80px;
+    background: rgb(3,0,236);
+background: linear-gradient(90deg, rgba(3,0,236,1) 44%, rgba(242,0,0,1) 72%);
+}
+.navbar-brand img{
+    height: 60px;
+}
+.navbar-brand {
+    color:#fff !important;
+    text-shadow: 0 0 5px, 0 0 5px, 0 0 5px black;
+    font-family: 'Tangerine', cursive;
+    
+}
+.navbar-brand span{
+    color: red ;
+    text-shadow: 0 0 5px, 0 0 5px, 0 0 5px black ;
+    font-family: 'Tangerine', cursive;
+     
+}
+.nav-link{
+    color:#fff !important;
+}
+ 
+ @media only screen and (min-width:0) and (max-width:576px) {
+    .navbar-collapse { 
+        background: rgb(3,0,236);
+        background: linear-gradient(90deg, rgba(3,0,236,1) 44%, rgba(242,0,0,1) 72%);
+        display: flex;
+        justify-content: center !important;
+
+    } 
+}  
